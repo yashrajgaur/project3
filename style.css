@@ -1,0 +1,315 @@
+/* * {
+margin: 0;
+padding: 0%;
+ } */
+
+ html {
+    scroll-behavior: smooth;
+  }
+
+.modified-container {
+    max-width: 1230px;
+}
+
+.banner-nave-div {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/banner3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+/* }
+
+.nav {
+    /* border: 2px solid; */
+    height: 80px;
+    margin: 5px;
+    padding: auto;
+}
+
+.nav-btn {
+    /* border: 1px solid; */
+    width: 57px;
+    height: 46px;
+    margin: 5px;
+}
+
+/* .nav-btn:hover{
+ border-radius: 20px;
+ border: 3px solid white;
+} */
+
+.logo img {
+    height: 36px;
+    margin: 20px 0px;
+}
+
+.nav-boxes {
+    justify-content: space-between;
+}
+.wave-main {
+    box-sizing: border-box;
+    
+    
+}
+
+.wave {
+    /* border: 1px solid rgb(255, 18, 204); */
+    /* height: 50%; */
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.4rem;
+    font-family: 'Caprasimo', cursive;
+    /* padding: 50px; */
+}
+
+.wave h2{
+    font-size: 3rem;
+}
+
+.slide{
+height: 520px;
+margin: -100;
+}
+
+
+.our-showcase {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 1200px;
+}
+
+.showcase {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 416px;
+    position: relative;
+    color: white;
+    background-color: #1d1d1d;
+}
+
+.content1 {
+    /* border: 1px solid red; */
+    height: 300px;
+    /* padding: 20px; */
+}
+
+.showcase-cards {
+    margin-top: 48px;
+    padding: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+}
+
+.showcase-heading h2 {
+    text-align: center;
+    /* margin-top: 105px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    font-size: 50px;
+}
+
+.showcase-heading p {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 140px;
+}
+
+
+
+
+
+.content2 {
+    /* border: 1px solid green; */
+    height: 150px;
+    width: 100%;
+}
+
+.content2 h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.content2 p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.ideas {
+    /* border: 2px solid yellow; */
+    height: 200px;
+    width: 100%;
+}
+
+.box {
+    /* border: 1px solid blue; */
+    height: 700px;
+    width: 100%;
+}
+
+.content3 {
+    /* border: 2px solid brown; */
+    height: 580px;
+    margin-top: 15px;
+    width: 100%;
+    background: url('img/39e13bc2443185270fbd9cdcef7453c9.jpg') no-repeat center center/cover;
+}
+.content3z {
+    /* border: 2px solid brown; */
+    height: 580px;
+    margin-top: 15px;
+    width: 100%;
+    background: url('img/success-occurs-when-opportunity-meets-preparation.jpg') no-repeat center center/cover;
+}
+
+.awards {
+    /* border: 1px solid rgb(129, 129, 0); */
+    height: 170px;
+    width: 100%;
+}
+
+.content4 {
+    /* border: 2px solid brown; */
+    height: 140px;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+
+.content4 h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    
+}
+
+.content4 p{
+    margin-top: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.content4a{
+
+     /* border: 2px solid brown; */
+    height: 42px;
+    margin-top: 42px;
+    padding: 0px 20px;
+    background: url('img/logo-awwards.png') no-repeat center center/cover;
+}
+.content4b{
+     /* border: 2px solid brown; */
+    height: 54px;
+    margin-top: 35px;
+    padding: 0px 20px;
+background: url('img/logo-fwa.png') no-repeat center center/cover;
+}
+.content4c{
+     /* border: 2px solid brown; */
+    height: 54px;
+    margin-top: 35px;
+    padding: 0px 20px;
+background: url('img/logo-css-reel.png') no-repeat center center/cover;
+}
+
+.digital-agency {
+    background-color: black;
+    color: white;
+    /* border: 2px solid blueviolet; */
+    height: 290px;
+    /* margin-top: -40px; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.digital-agency h3 {
+    text-align: center;
+    justify-content: center;
+    /* position: absolute; */
+    margin-top: 35px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.digital-agency h2 {
+    /* position: absolute; */
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.gallery-one {
+    background-image: url('img/work1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-two {
+    background-image: url('img/work2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-three {
+    background-image: url('img/work3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-four {
+    background-image: url('img/work6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-five {
+    background-image: url('img/work5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-six {
+    background-image: url('img/work4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-sev {
+    background-image: url('img/work12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-eight {
+    background-image: url('img/work11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-nine {
+    background-image: url('img/work10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    /* border: 2px solid black; */
+    background-color: black;
+    height: 100px;
+}
+
+.content5 {
+    /* border: 1px solid red; */
+    height: 60px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Caprasimo', cursive;
+    /* font-weight: 600; */
+}
